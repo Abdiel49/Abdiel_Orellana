@@ -1,19 +1,41 @@
 import type { Experience } from '~/types';
 
 export const experiences: Experience[] = [
+  // {
+  //   id: 'independent-consultant-current',
+  //   role: 'Software Engineer & Tech Lead',
+  //   company: 'Independent Consultant',
+  //   period: 'Dec 2025 - Present',
+  //   description: [
+  //     "Leading a multidisciplinary team of 6 developers on a complex SaaS platform, owning architecture decisions, sprint planning, and technical delivery across all layers.",
+  //     "Designing and implementing scalable backend services using NestJS with Hexagonal Architecture and DDD principles, ensuring long-term maintainability and performance.",
+  //     "Building high-performance frontend solutions using React and Angular (SSR/CSR), with advanced state management and optimization strategies.",
+  //     "Leveraging AI-native development workflows through Claude Code, Codex, and Gemini CLI with optimized token strategies, applying Spec-Driven Development (SDD) and AI security best practices.",
+  //     "Developing high-performance web solutions using Nuxt (SSR/SSG), significantly improving data security and server efficiency through advanced cache management."
+  //   ],
+  //   techBadges: ['NestJS', 'React', 'Angular', 'Nuxt', 'Hexagonal Architecture', 'DDD', 'AI-Native Development', 'Team Leadership', 'SDD']
+  // },
   {
-    id: 'independent-consultant-current',
-    role: 'Software Engineer & Tech Lead',
+    id: 'freelance',
+    role: 'Software Engineer',
     company: 'Independent Consultant',
-    period: 'Dec 2025 - Present',
+    period: 'Sep 2021 - Present',
     description: [
+      "Delivered 15+ end-to-end full stack solutions for international clients, translating requirements into production-ready mobile, web, and backend systems.",
       "Leading a multidisciplinary team of 6 developers on a complex SaaS platform, owning architecture decisions, sprint planning, and technical delivery across all layers.",
-      "Designing and implementing scalable backend services using NestJS with Hexagonal Architecture and DDD principles, ensuring long-term maintainability and performance.",
-      "Building high-performance frontend solutions using React and Angular (SSR/CSR), with advanced state management and optimization strategies.",
-      "Leveraging AI-native development workflows through Claude Code, Codex, and Gemini CLI with optimized token strategies, applying Spec-Driven Development (SDD) and AI security best practices.",
-      "Developing high-performance web solutions using Nuxt (SSR/SSG), significantly improving data security and server efficiency through advanced cache management."
+      "Designed scalable backend services with Node.js, NestJS, and Express using Hexagonal Architecture and DDD, exposing documented and tested REST and GraphQL APIs.",
+      "Built high-performance web applications with React, Next.js, Angular, Vue.js, and Nuxt (SSR/SSG/ISG), applying advanced state management (Redux Toolkit, Zustand), PWA capabilities, and cache strategies that improved data security and server efficiency.",
+      "Developed React Native apps with offline-first capabilities, plus native iOS (SwiftUI/UIKit) and Android (Kotlin) modules with seamless native bridging.",
+      "Architected CI/CD pipelines with GitHub Actions (testing, linting, secure database migrations) and deployed containerized apps with Docker across AWS, GCP, Heroku, and Railway.",
+      "Managed PostgreSQL, MySQL, MongoDB, Firestore, and Redis databases with automated backup pipelines and data reliability strategies.",
+      "Adopted AI-native development workflows (Claude Code, Codex, Gemini CLI) with Spec-Driven Development, optimized token strategies, and AI security best practices."
     ],
-    techBadges: ['NestJS', 'React', 'Angular', 'Nuxt', 'Hexagonal Architecture', 'DDD', 'AI-Native Development', 'Team Leadership', 'SDD']
+    techBadges: [
+      'React Native', 'React', 'Next.js', 'Angular', 'Nuxt', 'Vue.js', 'TypeScript',
+      'Node.js', 'NestJS', 'GraphQL', 'Hexagonal Architecture', 'DDD',
+      'PostgreSQL', 'MongoDB', 'Redis', 'AWS', 'GCP', 'Docker', 'GitHub Actions',
+      'AI-Native Development', 'SDD'
+    ]
   },
   {
     id: 'tangram',
@@ -43,22 +65,22 @@ export const experiences: Experience[] = [
     ],
     techBadges: ['React Native', 'Node.js', 'Firestore', 'GCP', 'Payment Integration', 'Multi-language Support', 'Scalable Architecture', 'PostgreSQL']
   },
-  {
-    id: 'freelance-consolidated',
-    role: 'Full Stack Software Developer',
-    company: 'Independent Consultant',
-    period: 'Sep 2021 - Sep 2024',
-    description: [
-      "Delivered 15+ end-to-end full stack solutions for international clients, translating requirements into production-ready mobile, web, and backend systems.",
-      "Developed React Native applications with offline-first capabilities, native iOS (SwiftUI/UIKit), and native Android (Kotlin) implementations with seamless native module bridging.",
-      "Built responsive web applications using React, Angular, Vue.js, and Nuxt (SSR/SSG/ISG) with advanced state management (Redux Toolkit, Zustand) and PWA capabilities.",
-      "Designed and implemented scalable backend services using Node.js, NestJS, and Express, exposing REST and GraphQL APIs with comprehensive documentation and testing.",
-      "Architected CI/CD pipelines using GitHub Actions for automated testing, linting, secure database migrations, and deployments across AWS, GCP, Heroku, and Railway.",
-      "Managed PostgreSQL, MySQL, MongoDB, Firestore, and Redis databases, implementing automated backup pipelines and data reliability strategies.",
-      "Containerized applications using Docker and orchestrated deployments across multiple cloud providers, maintaining production stability and performance."
-    ],
-    techBadges: ['React Native', 'React', 'Angular', 'Vue.js', 'Nuxt', 'NestJS', 'Express', 'GraphQL', 'AWS', 'GCP', 'Docker', 'PostgreSQL', 'MongoDB', 'Redis', 'Offline-First']
-  },
+  // {
+  //   id: 'freelance-consolidated',
+  //   role: 'Full Stack Software Developer',
+  //   company: 'Independent Consultant',
+  //   period: 'Sep 2021 - Sep 2024',
+  //   description: [
+  //     "Delivered 15+ end-to-end full stack solutions for international clients, translating requirements into production-ready mobile, web, and backend systems.",
+  //     "Developed React Native applications with offline-first capabilities, native iOS (SwiftUI/UIKit), and native Android (Kotlin) implementations with seamless native module bridging.",
+  //     "Built responsive web applications using React, Angular, Vue.js, and Nuxt (SSR/SSG/ISG) with advanced state management (Redux Toolkit, Zustand) and PWA capabilities.",
+  //     "Designed and implemented scalable backend services using Node.js, NestJS, and Express, exposing REST and GraphQL APIs with comprehensive documentation and testing.",
+  //     "Architected CI/CD pipelines using GitHub Actions for automated testing, linting, secure database migrations, and deployments across AWS, GCP, Heroku, and Railway.",
+  //     "Managed PostgreSQL, MySQL, MongoDB, Firestore, and Redis databases, implementing automated backup pipelines and data reliability strategies.",
+  //     "Containerized applications using Docker and orchestrated deployments across multiple cloud providers, maintaining production stability and performance."
+  //   ],
+  //   techBadges: ['React Native', 'React', 'Angular', 'Vue.js', 'Nuxt', 'NestJS', 'Express', 'GraphQL', 'AWS', 'GCP', 'Docker', 'PostgreSQL', 'MongoDB', 'Redis', 'Offline-First']
+  // },
   {
     id: 'tugerente',
     role: 'Full Stack Software Developer',
